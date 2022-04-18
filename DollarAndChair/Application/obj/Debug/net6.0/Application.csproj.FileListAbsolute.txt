@@ -1,0 +1,12 @@
+/Users/rdelossantos/Desktop/projects/dollar-and-chair/DollarAndChair/Application/bin/Debug/net6.0/Application.deps.json
+/Users/rdelossantos/Desktop/projects/dollar-and-chair/DollarAndChair/Application/bin/Debug/net6.0/Application.dll
+/Users/rdelossantos/Desktop/projects/dollar-and-chair/DollarAndChair/Application/bin/Debug/net6.0/Application.pdb
+/Users/rdelossantos/Desktop/projects/dollar-and-chair/DollarAndChair/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache
+/Users/rdelossantos/Desktop/projects/dollar-and-chair/DollarAndChair/Application/obj/Debug/net6.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rdelossantos/Desktop/projects/dollar-and-chair/DollarAndChair/Application/obj/Debug/net6.0/Application.AssemblyInfoInputs.cache
+/Users/rdelossantos/Desktop/projects/dollar-and-chair/DollarAndChair/Application/obj/Debug/net6.0/Application.AssemblyInfo.cs
+/Users/rdelossantos/Desktop/projects/dollar-and-chair/DollarAndChair/Application/obj/Debug/net6.0/Application.csproj.CoreCompileInputs.cache
+/Users/rdelossantos/Desktop/projects/dollar-and-chair/DollarAndChair/Application/obj/Debug/net6.0/Application.dll
+/Users/rdelossantos/Desktop/projects/dollar-and-chair/DollarAndChair/Application/obj/Debug/net6.0/refint/Application.dll
+/Users/rdelossantos/Desktop/projects/dollar-and-chair/DollarAndChair/Application/obj/Debug/net6.0/Application.pdb
+/Users/rdelossantos/Desktop/projects/dollar-and-chair/DollarAndChair/Application/obj/Debug/net6.0/ref/Application.dll
