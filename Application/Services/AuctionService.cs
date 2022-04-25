@@ -2,28 +2,30 @@ using System;
 using Application.Models;
 namespace Application.Services;
 
-public interface IAuctionService
-{
-    IList<Auctions> Auctions();
-}
 public class AuctionService : IAuctionService 
 {
-    public IList<Auctions> Auctions()
+    public GetAllAuctionsResult GetAllAuctions()
     {
-        DateTime eventDate = DateTime.Now.AddDays(5);
-        
-        return Enumerable.Range(1, 5).Select(index => new Auctions
+        var result = new GetAllAuctionsResult();
+        result.Auctions = new List<Auctions>();
+
+        for(var i = 1; i <= 5; i++)
         {
-            Id = RandomNumber(),
-            StartingPrice = RandomPrice(500.00, 1000.00),
-            StartDate = eventDate,
-            ExpirationDate = eventDate.AddDays(RandomNumber()),
-            CreatedAt = DateTime.Now,
-            UpdatedAt = DateTime.Now.AddDays(index),
-            
-            
-        })
-        .ToList();
+            var auction = new Auctions
+            {
+                Id = RandomNumber(),
+                StartingPrice = RandomPrice(500.00, 1000.00),
+                StartDate = DateTime.Now.AddDays(5),
+                CreatedAt = DateTime.Now,
+                UpdatedAt = DateTime.Now.AddDays(i),
+            };
+
+            auction.ExpirationDate = auction.StartDate.AddDays(RandomNumber());
+
+            result.Auctions.Add(auction);
+        }
+
+        return result;
     }
     private int RandomNumber()
     {

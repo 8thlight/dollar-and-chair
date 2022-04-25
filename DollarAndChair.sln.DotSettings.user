@@ -3,6 +3,7 @@
   &lt;Or&gt;
     &lt;TestAncestor&gt;
       &lt;TestId&gt;NUnit3x::4C8F3C16-0ABB-4A43-BE10-3F40088E9711::net6.0::Tests.ApplicationTest.WeatherForecastServiceTest.Test1&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::4C8F3C16-0ABB-4A43-BE10-3F40088E9711::net6.0::Tests.APITest.AuctionControllerTest.Pass&lt;/TestId&gt;
     &lt;/TestAncestor&gt;
     &lt;ProjectFile&gt;4C8F3C16-0ABB-4A43-BE10-3F40088E9711/d:ApplicationTest/f:AuctionServiceTest.cs&lt;/ProjectFile&gt;
   &lt;/Or&gt;

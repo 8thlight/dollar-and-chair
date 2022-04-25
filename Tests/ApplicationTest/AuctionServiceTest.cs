@@ -15,17 +15,17 @@ public class AuctionServiceTest
     [Test]
     public void ShouldHaveTotalOfFiveAuctions()
     {
-        var result = auctionService.Auctions();
+        var result = auctionService.GetAllAuctions();
         
-        Assert.AreEqual(result.Count, 5, "This does not contain 5 records");
+        Assert.AreEqual(result.Auctions.Count, 5, "This does not contain 5 records");
     }
 
     [Test]
     public void EachAuctionShouldContainAMaxNumberOfSeatsOfFive()
     {
-        var result = auctionService.Auctions();
+        var result = auctionService.GetAllAuctions();
         
-        foreach (var auction in result)
+        foreach (var auction in result.Auctions)
             Assert.AreEqual(auction.MaxSeats, 5, "It does not contain 5 seats");
     }
 }

@@ -5,7 +5,7 @@ using Application.Services;
 namespace API.Controllers;
 
 [ApiController]
-[Route("Auctions")]
+[Route("auctions")]
 public class AuctionController : ControllerBase
 {
     private IAuctionService auctionService;
@@ -15,9 +15,9 @@ public class AuctionController : ControllerBase
         auctionService = auctions;
     }
     
-    [HttpGet("allAuctions")]
-    public IList<Auctions> GetAuctions()
+    [HttpGet("")]
+    public GetAllAuctionsResult GetAuctions()
     {
-        return auctionService.Auctions();
+        return auctionService.GetAllAuctions();
     }
 }
