@@ -8,7 +8,7 @@ public class AuctionService : IAuctionService
     {
         var result = new GetAllAuctionsResult();
         result.Auctions = new List<Auctions>();
-
+// creates dummy data
         for(var i = 1; i <= 5; i++)
         {
             var auction = new Auctions
